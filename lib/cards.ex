@@ -3,6 +3,6 @@ defmodule Cards do
         ["Ace", "Two", "Three"]
     end
     def shuffle(deck) do
-        IO.puts(deck)
+        Enum.shuffle(deck)
     end
 end
